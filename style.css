@@ -4,6 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower|Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lakki+Reddy|Sedgwick+Ave+Display&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+</style>
 
 *{
 margin: 0;
@@ -68,7 +71,7 @@ font-size: 1.6em;
 h2{
 
   color:#ffffff;
-font-family: 'Sedgwick Ave Display', cursive;
+font-family: 'Roboto Condensed', cursive;
 font-size:2em;
 text-align: center;
 
