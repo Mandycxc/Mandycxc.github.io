@@ -1,200 +1,37 @@
-@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lakki+Reddy|Sedgwick+Ave+Display&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
-
 *{
-margin: 0;
-padding: 0;
-
+  margin: 0;
+  padding: 0;
 }
 
+.wrapper{
+  margin: 0 auto;
+  width: 1000px;
+}
 body{
-
-  overflow-x: hidden;
-  background-color: #262626;
-  background-image: url("Images/Background.psd");
+  background-color: #eeee;
+}
+nav{
+  width: 100;
+  height: 100px;
+  background-color: #fff;
 }
 
-.menu {
-
-  margin-top: 4vh;
-  margin-left: 4vh;
+u1{
+margin-left: 10px;
 }
 
-.menu li{
-  float: right;
-  padding-right: 30px;
-  font-size: 1.5em;
-  color: #b8b8b8;
+u1 li{
   list-style: none;
-}
-
-.menu li a {
-  color: #b8b8b8;
-  text-decoration: none;
-  font-family: 'Mansalva', cursive;
-
-}
-
-.menu li a:hover {
-  color:white;
-  text-decoration:underline;
-  transition: 0.3S;
-}
-
-
-#title,h3{
-  margin-top: 5vh;
-  color:  #ffffff;
-  font-family: 'Mansalva', cursive;
-  font-size: 3em;
-  text-align: center;
-
-}
-
-
-}
-
-h1 {
-  text-align: center;
-font-size: 1.6em;
-
-}
-
-
-h2{
-
-  color:#ffffff;
-font-family: 'Pangolin', cursive;
-font-size:2em;
-text-align: center;
-
-
-}
-
-
-
-.Joker{
-  width:40%;
-
-}
-
-.Home {
-  float:right;
-  margin-right: 30px;
-}
-
-p{
-  color:  #b8b8b8;
-  font-family: 'Covered By Your Grace', cursive;
-  text-align: center;
-  font-size: 1.3em;
-
-
-
-}
-
-
-
-b{
-  text-align: center;
-}
-
-
-
-h4{
-  font-family: 'Open+Sans+Condensed', cursive;
-  text-align: center;
-  color:#ffffff;
-  font-size: 1.4em;
-  margin-left: 100px;
-  margin-right: 100px;
-
-}
-.column {
+  display: inline-block;
   float: left;
-  width: 45.45%;
-  padding: 5px;
-  margin-left: 50px;
+  line-height: 100px;
 }
 
-.Myself {
-  width:600px;
-  height:900px;
-  margin-left: 800px;
-}
-
-#collagetext {
+u1 li a{
   display: block;
+text-decoration: none;
+font-size: 14px;
+font-family: arial;
+color: #1e1e1e;
+padding: 0 20px;
 }
-
-.joker {
-  width:600px;
-
-}
-
-h5{
-  color:#ffffff;
-  font-size: 1.8em;
-text-align: center;
-margin-right: 50px;
-  font-family: 'Mansalva', cursive;
-
-
-}
-
-footer{
-  background-color: #ffffff;
-
-  font-family: 'Covered By Your Grace', cursive;
-  margin-bottom: 5vh;
-  margin-top: 5vh;
-}
-
-.neon {
-  color: #fff;
-  text-shadow:
-    0 0 5px #9cb4db,
-    0 0 10px #9cb4db,
-    0 0 20px #9cb4db,
-    0 0 40px #9cb4db,
-    0 0 80px #793680,
-    0 0 90px #9cb4db,
-    0 0 100px #9cb4db,
-    0 0 150px #793680;
-
-    font-size: 2em;
-    text-align: center;
-  font-family: 'Mansalva', cursive;
-}
-
-.neonlink {
-  color: #90bce8;
-  text-shadow:
-    0 0 5px #9cb4db,
-    0 0 10px #9cb4db,
-    0 0 20px #9cb4db,
-    0 0 40px #9cb4db,
-    0 0 80px #793680,
-    0 0 90px #9cb4db,
-    0 0 100px #9cb4db,
-    0 0 150px #793680;
-
-    font-size: 1.3em;
-    text-align: center;
-  font-family: 'Mansalva', cursive;
-}
-
-.link{
-
-  color:white;
-}
-
-
