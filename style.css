@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@100&family=Playfair+Display&display=swap');
 
 
 *{
@@ -62,10 +63,31 @@ h2{
 }
 
 h3{
-  color: #343434;
+  color: black;
   font-family: 'Abril Fatface', cursive;
   font-size: 30px;
 }
+
+h4{
+  background-color: white;
+  color: black;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+h5{
+  color:#343434;
+font-size: 20px;
+background-color: lightgray;
+text-align: center;
+padding-top: 20px;
+font-family: 'Playfair Display', serif;
+
+}
+
 
 .container {
 display: flex;
@@ -80,9 +102,11 @@ max-width: 70%
 
 }
 
+.collage{
+width: 700px;
+height:250px;
 
-
-
+}
 
 
 .img-col > div{
@@ -97,8 +121,28 @@ max-width: 70%
 
 }
 
-h4{
-  color: Black;
-  font-size: 60px;
+.box2{
+  width: 400px;
+  height: 10px;
   padding-top: 0px;
+
+
+}
+
+
+.vl {
+  border-left: 1000px solid lightgray;
+  height: 2px;
+
+
+}
+
+p{
+  text-decoration: none;
+
+}
+
+.temple{
+  text-align: center;
+  padding-top: 20px;
 }
